@@ -1,0 +1,53 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="screen">
+        
+        
+        <div class="form">
+            <h1>Registro de Funcionarios</h1>
+
+            <form method="post" class="Validador">
+                <label>
+                    Nome: <br/>
+                    <input type="text" name="name" data-rules="required">
+                </label>
+                <label>
+                    CPF:<br/>
+                    <input type="text" name="CPF">
+                </label>
+                <label>
+                    Salario bruto:<br/>
+                    <input type="text" name="Salario">
+                </label>
+                <label>
+                    Desconto previdencia:<br/>
+                    <input type="text" name="Desconto">
+                </label>
+                <label>
+                    Numero de dependentes:<br/>
+                    <input type="text" name="dependentes">
+                </label>
+                <label>
+                    <input type="submit" value="REGISTRAR">
+                </label>
+            </form>
+
+            <div>
+                 <a href="">Registrar novo funcionario</a>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
